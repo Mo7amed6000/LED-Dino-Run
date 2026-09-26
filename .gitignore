@@ -1,0 +1,27 @@
+# Arduino build output
+build/
+*.hex
+*.elf
+*.eep
+*.bin
+*.lss
+*.map
+*.sym
+*.o
+*.d
+
+# Arduino / VS Code workspace clutter
+.pio/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets (keep out of the repo if you add them later)
+.env
+.env.*
+*.pem
+credentials.json
